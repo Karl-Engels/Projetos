@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="area-display">
+        <input type="text" name="" class="display" />
+      </div>
+
+      <div class="area-botoes">
+        <div class="linha-botoes">
+          <button onclick="clicou('(')">(</button>
+          <button onclick="clicou(')')">)</button>
+        </div>
+
+        <div class="linha-botoes">
+          <button onclick="limpar()">C</button>
+          <button onclick="backSpace()">&#8678;</button>
+          <button onclick="clicou('.')">.</button>
+          <button onclick="clicou('/')">÷</button>
+        </div>
+
+        <div class="linha-botoes">
+          <button onclick="clicou(7)">7</button>
+          <button onclick="clicou(8)">8</button>
+          <button onclick="clicou(9)">9</button>
+          <button onclick="clicou('*')">x</button>
+        </div>
+
+        <div class="linha-botoes">
+          <button onclick="clicou(4)">4</button>
+          <button onclick="clicou(5)">5</button>
+          <button onclick="clicou(6)">6</button>
+          <button onclick="clicou('-')">-</button>
+        </div>
+
+        <div class="linha-botoes">
+          <button onclick="clicou(1)">1</button>
+          <button onclick="clicou(2)">2</button>
+          <button onclick="clicou(3)">3</button>
+          <button onclick="clicou('+')">+</button>
+        </div>
+
+        <div class="linha-botoes">
+          <button onclick="clicou(0)">0</button>
+          <button onclick="calcular()">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
